@@ -1,7 +1,7 @@
 # web-explorer-
 ## This web is about the front end as well as our team members  
 
- ### 分工：
+### 分工：
 1. 吴卓：主页面【导航条：about members method works contact】导航部分和contanct 每个页面都一样       
 2. 秦朗：members     
 3. 王华港：method黄慧：works主色调：暗色系 （就是那种黑酷炫的）暂定（有什么好的想法就提出来）
