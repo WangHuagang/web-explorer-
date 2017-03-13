@@ -3,15 +3,16 @@
   margin: 0;
   padding: 0;
 }
-.nav-wz li {
+.nav-wz
+li {
   list-style: none;
   position: relative;
 }
 
-.nav-wz a {
+.nav-wz
+a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font-family: Stencil;
   display: block;
   padding: 12px 40px;
   width: 80px;
@@ -21,27 +22,21 @@
   background:#000;
   text-align: center;
   z-index: 1;
+  font-family:Courier;
   font-size: 19px;
   position: fixed;
-  /*max-width: 1580px;*/
   width: 100%;
   transition: all 1s;
 }
 
 .nav-wz
 .nav-container {
-  /*max-width: 1280px;*/
   margin: 0 auto;
-  /*box-sizing: inherit;*/
 }
 
 .nav-wz
 .nav-list {
-  /*向作偏移 用 float*/
-  /*float: left;*/
   display: inline-block;
-  /*display: block;*/
-  /*position: relative;*/
 }
 
 /*字体图标的外包裹*/
@@ -67,6 +62,7 @@
   -moz-osx-font-smoothing: grayscale;
   transition: all 0.4s;
 }
+
 .the-icon {
   transform: rotate(45deg);
 }
