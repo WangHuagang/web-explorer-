@@ -1,0 +1,108 @@
+/*General Styles*/
+@import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Playfair+Display:400,400i,700,700i,900,900i';
+
+
+*{
+	font-family:inherit;
+}
+body{
+	font-family:'Lato', sans-serif;
+	overflow-x:hidden;
+}
+.section-header > p,
+.font-alt{
+	font-family:'Playfair Display', serif;
+}
+section{
+	background:#FFF;
+}
+.parallax{
+	background-color:transparent !important;
+}
+img{
+	max-width:100%;
+}
+
+a.app-btn{
+	color:#FFF;
+}
+.app-btn{
+	position:relative;
+	padding:9px 31px;
+	border-radius:50px;
+	color:#FFF;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	background:transparent;
+	text-decoration:none !important;
+	-webkit-transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	transition:all .3s ease;
+	top:0;
+	border:solid 2px #FFF;
+}
+.app-btn:hover{
+	background:#FFF;
+	color:#202020;
+}
+.app-btn > i{
+	font-size:20px;
+	vertical-align:middle;
+	margin-right:5px;
+}
+
+/*Home*/
+.main-section{
+	background:#5a32c6;
+	overflow:hidden;
+	position:relative;
+	padding:100px 0;
+	padding-top:160px;
+}
+.particle-bg{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	z-index:0;
+}
+.main-section .mockup{
+	position:relative;
+}
+.main-section .mockup > .front{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+}
+.intro-text{
+	padding-top:120px;
+	padding-bottom:105px;
+}
+.intro-text > h1{
+	font-weight:300;
+	color:#FFF;
+	line-height:1.2em;
+	font-size:56px;
+	letter-spacing:2px;
+	margin-top:0;
+	margin-bottom:25px;
+}
+.intro-text > p{
+	font-size:22px;
+	margin:0;
+	margin-bottom:50px;
+	color:#FFF;
+	font-style:italic;
+	letter-spacing:2px;
+}
+.intro-text > .btns{
+	margin-top:30px;
+	margin-left:-10px;
+}
+.intro-text .app-btn{
+	margin:0 10px;
+	margin-bottom:15px;
+}
