@@ -1,0 +1,23 @@
+.mainbody {
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainbody
+h1 {
+  align-self: flex-start;
+}
+
+.left {
+  background: rgb(210, 42, 7);
+  height: 200px;
+  width: 20%;
+}
+
+.right {
+  background:rgb(135, 179, 119);
+  height: 200px;
+  width: 60%;
+}
