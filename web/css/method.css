@@ -1,0 +1,110 @@
+body,textarea,input,select,option{font-size:12px;color:#333;font-family:Tahoma,Arial,sans-serif;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+body,h1,h2,h3,h4,h5,h6,ol,ul,dl,dd,p,textarea,input,select,option,form{margin:0;}
+ol,ul,textarea,input,option,th,td{padding:0;}
+textarea{overflow:auto;resize:none;}
+table{border-collapse:collapse;}
+ol,ul{list-style-type:none;}
+a{text-decoration:none;outline:none;color:#333;}
+a img{border:none;}
+img{display:block;}
+.l{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+/*banner*/
+.banner-whg{
+    width: 100%;
+    padding-top: 40px;
+}
+.banner-whg img{
+    width: 100%;
+}
+/*������Ϣ*/
+.main{
+    width: 100%;
+}
+.main .title{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    line-height: 60px;
+}
+.main .container{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 10px;
+}
+.box{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 0 3px #e0e0e0;
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 30px;
+    transition: all 0.5s ;
+}
+.box:hover{
+    box-shadow: 0 0 40px #ccc;
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.box .text a{
+    display: block;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #6872ff;
+    color: white;
+    text-align: center;
+    background-color: #64ff3d;
+    line-height: 40px;
+    transition: background 0.5s;
+    margin:0px auto;
+}
+.box .black{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+}
+.text{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.text p{
+    border-top: 2px solid #64ff3d;
+    padding: 20px 20px;
+}
+.text p:first-child{
+   margin-top: 10px;
+}
+.text p:last-child{
+    margin-top: 20px;
+}
+
+.box .text a:hover{
+    color: white;
+    background:black  url("../img/grenn-arrow.png") no-repeat 100px center;
+}
+@media screen and (max-width:768px){
+    .main .container{
+        width: 46%;
+    }
+
+}
+
+@media screen and (max-width:460px){
+    .main .container{
+        width: 96%;
+    }
+}
