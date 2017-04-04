@@ -1,0 +1,243 @@
+.membertop {
+  flex-flow: row||nowrap;
+  justify-content: center;
+  width: 1600px;
+  height: 740px;
+  background-image: url('../img/13.jpg');
+  background-repeat: repeat;
+}
+
+/*gang*/
+
+.memberimg1 {
+  box-shadow: 5px 5px 5px 5px rgb(4, 4, 4);
+  transition-duration: 2s;
+  -webkit-transition-duration: 2s;
+  position: absolute;
+  left:40px;
+  top:200px;
+}
+#gang {
+  width: 600px;
+  height: 50px;
+  background-color: rgb(12, 96, 157);
+}
+.modal-body1 {
+  background-color: rgb(50, 151, 208);
+  width: 600px;
+  height: 316px;
+}
+.btn1:hover {
+  opacity: 0;
+}
+.btn1 {
+  margin: 0px;
+  padding: 0px;
+  opacity: 1.0;
+  border: 0px;
+  width: 332px;
+  height: 420px;
+}
+.memberimg1:hover {
+  background-image: url('../img/3.jpg');
+}
+.jieshao {
+  box-shadow: 3px 3px 3px rgb(4, 4, 4);
+  float: left;
+}
+.modal-footer1 {
+  width: 600px;
+  height: 50px;
+  float: right;
+  background-color: rgb(12, 96, 157);
+}
+.btn2 {
+  color: rgb(252, 252, 252);
+  box-shadow: 1px 1px 1px 1px rgb(11, 11, 11);
+  background-color: rgb(50, 151, 208);
+  font-family: cursive;
+  font-size: 35px;
+  float: right;
+  border: 2px;
+  border-radius: 8px;
+  -webkit-transition: color 0.4s ease, background-color 0.2s ease;
+  transition: color 0.4s ease, background-color 0.2s ease;
+}
+.btn2:hover {
+  color: rgb(22, 146, 215);
+  background-color: rgb(187, 213, 230);
+}
+
+/* zhuo*/
+
+.memberimg2 {
+  box-shadow: 5px 5px 5px 5px rgb(4, 4, 4);
+  transition-duration: 2s;
+  -webkit-transition-duration: 2s;
+  position: absolute;
+  left:410px;
+  top:200px;
+}
+.memberimg2:hover {
+  background-image: url('../img/4.jpg');
+}
+#zhuo {
+  width: 600px;
+  height: 50px;
+  background-color:rgb(10, 189, 167);
+}
+.modal-body2 {
+  background-color: rgb(118, 236, 211);
+  width: 600px;
+  height: 316px;
+}
+.btn3:hover {
+  opacity: 0;
+}
+.btn3 {
+  margin: 0px;
+  padding: 0px;
+  opacity: 1.0;
+  border: 0px;
+  width: 332px;
+  height: 420px;
+}
+.modal-footer2 {
+  width: 600px;
+  height: 50px;
+  float: right;
+  background-color: rgb(10, 189, 167);
+}
+.btn4 {
+  color: rgb(252, 252, 252);
+  box-shadow: 1px 1px 1px 1px rgb(11, 11, 11);
+  background-color: rgb(50, 208, 151);
+  font-family: cursive;
+  font-size: 35px;
+  float: right;
+  border: 2px;
+  border-radius: 8px;
+  -webkit-transition: color 0.4s ease, background-color 0.2s ease;
+  transition: color 0.4s ease, background-color 0.2s ease;
+}
+.btn4:hover {
+  color: rgb(12, 185, 169);
+  background-color: rgb(210, 233, 233);
+}
+
+/*qing*/
+
+.memberimg3 {
+  box-shadow: 5px 5px 5px 5px rgb(4, 4, 4);
+  transition-duration: 2s;
+  -webkit-transition-duration: 2s;
+  position: absolute;
+  left:790px;
+  top:200px;
+}
+.memberimg3:hover {
+  background-image: url('../img/8.jpg');
+}
+#qing {
+  width: 600px;
+  height: 50px;
+  background-color:rgb(179, 35, 35);
+}
+.modal-body3 {
+  background-color: rgb(244, 62, 68);
+  width: 600px;
+  height: 316px;
+}
+.btn5:hover {
+  opacity: 0;
+}
+.btn5 {
+  margin: 0px;
+  padding: 0px;
+  opacity: 1.0;
+  border: 0px;
+  width: 332px;
+  height: 420px;
+}
+.modal-footer3 {
+  width: 600px;
+  height: 50px;
+  float: right;
+  background-color: rgb(179, 35, 35);
+}
+.btn6 {
+  color: rgb(252, 252, 252);
+  box-shadow: 1px 1px 1px 1px rgb(11, 11, 11);
+  background-color: rgb(215, 72, 76);
+  font-family: cursive;
+  font-size: 35px;
+  float: right;
+  border: 2px;
+  border-radius: 8px;
+  -webkit-transition: color 0.4s ease, background-color 0.2s ease;
+  transition: color 0.4s ease, background-color 0.2s ease;
+}
+.btn6:hover {
+  color: rgb(194, 55, 59);
+  background-color: rgb(231, 167, 167);
+}
+
+/*huang*/
+
+.memberimg4 {
+  box-shadow: 5px 5px 5px 5px rgb(4, 4, 4);
+  transition-duration: 2s;
+  -webkit-transition-duration: 2s;
+  position: absolute;
+  left:1170px;
+  top:200px;
+}
+.memberimg4:hover {
+  background-image: url('../img/10.jpg');
+}
+#huang {
+  width: 600px;
+  height: 50px;
+  background-color:rgb(192, 200, 37);
+}
+.modal-body4 {
+  background-color: rgb(210, 227, 70);
+  width: 600px;
+  height: 316px;
+}
+.btn7:hover {
+  opacity: 0;
+}
+.btn7 {
+  margin: 0px;
+  padding: 0px;
+  opacity: 1.0;
+  border: 0px;
+  width: 332px;
+  height: 420px;
+}
+.modal-footer4 {
+  width: 600px;
+  height: 50px;
+  float: right;
+  background-color: rgb(192, 200, 37);
+}
+.btn8 {
+  color: rgb(252, 252, 252);
+  box-shadow: 1px 1px 1px 1px rgb(11, 11, 11);
+  background-color: rgb(182, 207, 34);
+  font-family: cursive;
+  font-size: 35px;
+  float: right;
+  border: 2px;
+  border-radius: 8px;
+  -webkit-transition: color 0.4s ease, background-color 0.2s ease;
+  transition: color 0.4s ease, background-color 0.2s ease;
+}
+.btn8:hover {
+  color: rgb(170, 172, 19);
+  background-color: rgb(230, 232, 197);
+}
+.modal.fade.in {
+  top: 130px;
+}
