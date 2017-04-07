@@ -1,30 +1,46 @@
 header {
   font-size: 1em;
+  position: relative;
+}
+/*背景图片固定*/
+.img-position {
   background-image: url(../img/one.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   height: 95vh;
-  position: relative;
 }
 
 .title {
   font-family: 微软雅黑;
   text-align: center;
+  margin-top: 120px;
+  opacity: 0;
+  transition: all 1.2s;
+}
+
+/* 指定位置 增加 css 是 块出现动画*/
+
+header
+.the-animation {
+  opacity: 1;
+  margin: 0;
+}
+
+.wrap-out-wz {
+  position: relative;
+  height: 200px;
+  transition: all 1.2s;
+}
+
+
+.wrap-in-wz {
   position: absolute;
    left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
-  margin-top: 120px;
-  opacity: 0;
-  animation: Upside-down 0.8s forwards;
 }
-
-@keyframes Upside-down {
-  100% {margin-top: 0px; opacity: 1;}
-}
-
 
 .title
 h1 {
