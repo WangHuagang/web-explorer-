@@ -1,4 +1,4 @@
-# web-explorer-
+﻿# web-explorer-
 ## This web is about the front end as well as our team members  
 
 ### 分工：
@@ -23,6 +23,6 @@ div {
 1. 增加了导航栏 ...
 2. 增加其他页面的基本功能
 3. 进一步熟悉git 的操作.
-
+4. 测试.
 
 *每次推送都写个 md *
