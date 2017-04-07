@@ -1,0 +1,58 @@
+.mainbody {
+  /*height: 100vh;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainbody
+h1 {
+  align-self: flex-start;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  background:rgb(135, 179, 119);
+  height: 60vh;
+  width: 50%;
+  position: relative;
+}
+
+.mainbody
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainbody
+ul
+li {
+  background: rgb(142, 142, 142);
+  margin: 25px 0;
+  list-style: none;
+  font-size: 3em;
+  width: 60%;
+  padding: 20px 10px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.mainbody
+ul
+li:hover {
+  box-shadow: 10px 10px 5px rgb(207, 207, 207);
+}
+
+.right
+p {
+  font-size: 1.5em;
+  line-height: 2.5em;
+  text-align: center;
+  display: block;
+  width: 80%;
+}
